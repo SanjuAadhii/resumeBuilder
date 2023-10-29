@@ -1,0 +1,47 @@
+
+.logo p{
+  font-size: 15px;
+}
+.foot__contain{
+   margin-left: 200px;
+}
+.footer{
+  background-color: #02A678;
+  margin-top: 100px;
+}
+.footer__1{
+  margin-left: 150px;
+}
+.social__links span{
+  height: 10px;
+  margin-bottom: 50px;
+}
+.logo img{
+  height: 100px;
+}
+.footer__link-title{
+  font-size: 30px;
+  color: #F4B53D;
+  margin-top: 10px;
+}
+
+.foot{
+  position: relative;
+  margin-top: 10%;
+}
+.footer__quick-links a{
+font-size: small;
+text-decoration: none;
+color: #fff;
+}
+.footer__quick-links{
+ background-color: transparent;
+}
+.list-group{
+  --bs-list-group-bg: none!important;
+}
+.icon__foot{
+  font-size: 20px;
+  background: #F4B53D;
+  border-radius: 5px;
+}

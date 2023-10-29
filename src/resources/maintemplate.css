@@ -1,0 +1,68 @@
+.home .template1{
+   margin: 20px;
+   box-shadow: 0 0 3px gray;
+   padding: 20px;
+   position: relative;
+   overflow: hidden;
+  
+}
+.template1{
+   
+    align-items: center;
+    
+}
+.slid__img,.slid-p,.slid-btn{
+    margin-left: 50px;
+}
+.slid__img{
+border-radius: 0 10px 0 10px;
+border: 10px solid black;
+}
+
+.slid-btn{
+    width: 80px;
+    border-radius: 0 5px 0 5px;
+    height: 25px;
+    font-size: 12px;
+    padding: 0.5rem 0.5rem;
+    background: #02A678;
+    border: none;
+    margin-top: 30px;
+}
+.slid-btn:hover{
+    background: #F4B53D;
+    transition: 0.4s;
+  }
+
+.home .template1 #text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    color: #fff !important;
+    transition: 0.5s;
+}
+.home .template1 #text p{
+    color: #fff;
+}
+.home .template1 #text:hover{
+    background-color: black;
+    opacity: 0.8;
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+}
+.home .template1 #temBtn{
+    background-color: #fff !important;
+    color: black !important;
+    font-size: 16px !important;
+    padding: 0 20px;
+    outline: none !important;
+    border: none !important;
+}

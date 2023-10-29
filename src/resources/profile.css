@@ -1,0 +1,160 @@
+.parentProfile{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    min-height: 80vh;
+    height: auto;
+    border:2px solid gray;
+    /* transition: 0.1s !important; */
+    /* padding: 20px; */
+}
+.parentProfile .updateprofile Form #myTab{
+    display: flex!important;
+    flex-direction: column!important;
+    position: absolute!important;
+    border-right: 2px solid gray;
+    border-bottom: 1px solid transparent;
+    height: 100%;
+    outline: none!important;
+    gap: 20px;
+    outline: none !important;
+    transition: 1s;
+    width: 20% !important;
+}
+#imags{
+    display: none;
+}
+#upload{
+    position: relative;
+    left: 30% !important;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s;
+    background-color: #000;
+    color: #fff !important;
+    border-radius: 20px;
+}
+#proimage {
+    position: relative;
+   align-self: center;
+   top: 10px;
+   border: 2px solid gray;
+   border-radius: 100%;
+   overflow: hidden;
+}
+.parentProfile .updateprofile Form #myTab:hover:active{
+    outline: none!important;
+}
+.parentProfile .updateprofile Form #myTab .updateBtn{
+    position: relative!important;
+    top: 20px!important;
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+.parentProfile .updateprofile Form #myTab .updateBtn span{
+    color: #fff;
+}
+.updateBtnli{
+    display: flex;
+    align-self: center;
+    color: #fff !important;
+}
+
+.parentProfile .updateprofile Form #myTabContent{
+   width: 80%!important;
+   position: relative;
+   left: 20%!important;
+   min-height: 80vh;
+   height: 100%!important;
+   padding: 20px;
+}
+.parentProfile .updateprofile Form .nav-link{
+    width: 100%;
+    color: #000!important;
+    outline: none!important;
+    border:none ;
+    border-radius: 0px 0px 0px 0px  !important;
+}
+.parentProfile .updateprofile Form .nav-link:hover{
+    color: #fff!important;
+    background-color: #000;
+ 
+}
+.parentProfile .updateprofile Form .nav-link:focus{
+    color: #fff!important;
+    background-color: #000;
+}
+.parentProfile .updateprofile Form .nav-link:active{
+    color: #fff!important;
+    background-color: #000!important;
+}
+input:focus{
+    color: #000!important;
+    box-shadow: none !important;
+    outline: none!important;
+    border:1px solid rgb(0, 0, 0)!important;
+}
+input::placeholder{
+    color: #000 !important;
+}
+TextArea{
+    border:1px solid #000!important;
+    border-radius: 0px!important;
+    color: #000!important;
+}
+.text:hover,.text:focus{
+    border:1px solid #000 !important;
+    box-shadow: none!important;
+    color: #000!important;
+}
+.personalInfo{
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    position: relative !important;
+    left: 20% !important;
+}
+.profileInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+}
+b{
+    font-size: 20px;
+}
+.mobile_parentProfile{
+    display: none;
+}
+@media screen and (max-width:778px) {
+    .parentProfile{
+        display: none;
+    }
+    .mobile_parentProfile{
+        display: block;
+    }
+    .displayImage{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid gray;
+    }
+    #proimage{
+        position: relative;
+        width: 40%;
+    }
+    #uploadimg{
+        width: 100%;
+    }
+    .personalInfo{
+        left: 0% !important;
+    }
+    .ant-tabs-nav{
+        align-self: center;
+    }
+}

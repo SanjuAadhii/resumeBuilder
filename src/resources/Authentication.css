@@ -1,0 +1,81 @@
+.image__3{
+    height: 100vh;
+    width: 50%;
+}
+.resume__1{
+    height: 75%;
+    position: relative;
+    right: 20%;
+    top: 10%;
+    border-radius: 5%;
+    border-color: #A3E5FF;
+    
+
+}
+
+
+
+
+.auth-parent{
+    height: 100vh;
+    padding: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A3E5FF;
+    
+}
+.ant-input{
+ color: black!important;
+}
+.auth-parent form{
+    background-color: #A6B3FF;
+    border-radius: 7%;
+    /* background-color:#FCDA80; */
+    /* background-color:#A3FBCB; */
+    /* background-color:#357388; */
+}
+.auth-parent form h1{
+    font-size: 25px;
+    color: #000;
+}
+
+.auth-parent form hr{
+    border-style: dashed;
+}
+.auth-parent form{
+    width: 400px;
+    box-shadow: 0 0 3px gray;
+    padding: 20px;
+}
+.auth-parent form button{
+    /* background-color:black!important; */
+    color: white!important;
+}
+#reg{
+     color: white;
+}
+
+
+
+
+.ant-spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
+}
+/* #username,#email,#password{
+    color: #000 !important;
+} */
+.profiletitle{
+    color: #fff;
+}
+
+
+@media screen and (max-width:778px){
+    .image{
+        display: none;
+    }
+}

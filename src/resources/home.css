@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Berkshire+Swash&family=Borel&family=Pacifico&family=Roboto+Slab&display=swap');
+
+.para__1{
+    font-size: 20px;
+}
+.img1con img{
+    height: 350px;
+    width: 100%;
+    border-radius: 50px;
+}
+.start__button,.start__button2{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    padding: 0.5rem 0.5rem;
+    background: #02A678;
+    border: none;
+    
+}
+.start__button:hover,.start__button2:hover{
+  background: #F4B53D;
+  transition: 0.4s;
+}
+
+.fronter__div img{
+    height: 500px;
+    width: 100%;
+}
+.advertise__sec{
+    margin-top: 10%;
+}
+.title__sec{
+    margin-top: 5%;
+}
+
+/* ////resume__content2 */
+.resume__content2 h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.slide__sec{
+    margin-top: 10%;
+}
